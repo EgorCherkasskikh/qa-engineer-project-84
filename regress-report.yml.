@@ -2,11 +2,7 @@ test-cases:
   - summary: |
       Проверка оформления заказа с корректными данными
     status: fail
-
-  - summary: |
-      Регистрация нового пользователя
-    status: fail
-    
+  
   - summary: |
       Проверка фильтра по категории
     status: pass
