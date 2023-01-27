@@ -1,26 +1,11 @@
+---
 test-cases:
+  - summary: |
+      Проверка фильтра по категории 
+    status: pass
+
   - summary: |
       На первой странице отображается кнопка Previous
     status: pass
 
-  - summary: |
-      Проверка фильтра по категории
-    status: pass
-    
-  - summary: |
-   Проверка оформления заказа
-   status: pass
-   
-bugreports:
-  - summary: |
-    Нет локализации на русский
-  environment: |
- Yandex Browser 106.0.5249.818 (64-разрядная версия) 
-  ОС Windows 10 Version 21H2 (Build 19044.2364)
-  steps-to-reproduce: |
-    1. Зайти на страницу магазина
-    2. Нажать на "Lanuage" и сменить на "Russian"
-  expected-result: |
-    На странице магазина переводится название товара, описание товара, категории товаров
-  actual-result: |
-     На странице магазина не переводится название товара, описание товара, категории товаров
+bugreports: []
